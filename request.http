@@ -1,0 +1,13 @@
+POST http://localhost:8080/wsec1e1/
+HTTP/1.1
+Content-Type: text/xml
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+            xmlns:gs="http://spring.io/guides/gs-producing-web-service%22%3E"
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:getCountryRequest>
+            <gs:name>Marte</gs:name>
+    </gs:getCountryRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
